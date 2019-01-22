@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>bees</title>
+    <title>Lab 0</title>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <!-- Bootstrap core CSS -->
@@ -16,7 +16,7 @@
     <link href="css/style.min.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="grey lighten-3">
 
     <!--Main Navigation-->
     <header>
@@ -42,7 +42,7 @@
                     <!-- Left -->
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link waves-effect" href="#">Home
+                            <a class="nav-link waves-effect" href="./index.html">Home
                                 <span class="sr-only">(current)</span>
                             </a>
                         </li>
@@ -71,99 +71,58 @@
     <main class="mt-5 pt-5">
         <div class="container">
 
-            <!--Section: Jumbotron-->
-            <section class="card wow fadeIn" style="background-image: url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg);">
-
-                <!-- Content -->
-                <div class="card-body text-white text-center py-5 px-5 my-5">
-
-                    <h1 class="mb-4">
-                        <strong>Oh my god there is bees</strong>
-                    </h1>
-                    <p>
-                        <strong>Webpage for Benjamin LeBrun in Embedded Systems (CENG 446)</strong>
-                    </p>
-                    <p class="mb-4">
-                        <strong>Holy doggo my eyes are being stung by bees holy WOW.</strong>
-                    </p>
-                    <a target="_blank" href="https://youtu.be/xHGntwEikUQ?t=94" class="btn btn-outline-white btn-lg">BEEEEEEEEES
-                        <i class="fas fa-forumbee"></i>
-                    </a>
-
-                </div>
-                <!-- Content -->
-            </section>
-            <!--Section: Jumbotron-->
-
-            <hr class="my-5">
-
-            <!--Section: Cards-->
-            <section class="text-center">
+            <!--Section: Post-->
+            <section class="mt-4">
 
                 <!--Grid row-->
-                <div class="row mb-4 wow fadeIn">
+                <div class="row">
 
-                    <!--Grid column-->
-                    <div class="col-lg-4 col-md-6 mb-4">
+                        <!--Featured Image-->
+                        <div class="card mb-4 wow fadeIn">
+
+                            <img src="./img/lab0.jpg" class="img-fluid" alt="">
+
+                        </div>
+                        <!--/.Featured Image-->
 
                         <!--Card-->
-                        <div class="card">
-
-                            <!--Card image-->
-                            <div class="view overlay">
-                                <img src="./img/lab0.jpg" class="card-img-top" alt="">
-                                <a href="./lab0.html" target="_blank">
-                                    <div class="mask rgba-white-slight"></div>
-                                </a>
-                            </div>
+                        <div class="card mb-4 wow fadeIn">
 
                             <!--Card content-->
                             <div class="card-body">
-                                <!--Title-->
-                                <h4 class="card-title">Lab 0</h4>
-                                <!--Text-->
-                                <p class="card-text">Initial lab for class.</p>
-                                <a href="./lab0.html" target="_blank" class="btn btn-primary btn-md">See Post
-                                </a>
+                                <p class="h5 my-4">The AVR toolchain sanity check lab </p>
+
+                                <p>This lab was a simple AVR toolchain sanity check, making sure we have every process for AVR
+                                  development ready for the actual labs for Embedded systems.</p>
+
+                                <p>Largely, I took the time this lab to create templates where prossible, for example, I couldn't find
+                                  any sort of make file either on d2l or elsewhere, so using some snippets and some knowledge I made my own.
+                                  This should allow me to simply make a local copy of the lab 0 repository from github, change the necessary
+                                  parameters, then begin coding. Likewise for the class website presented here, to tape and staple this template
+                                  together from some grifter selling webdev courses I made a post template which would only require a simple
+                                  writeup and edit to the homepage for basic presentability.</p>
+
+                                <p>Below you should find my video with all requirements as listed inside the Lab 0 assignment whitepaper, as well
+                                  as the Github repository for quick pulldown. Note that when the video was shot I had initially forgot to define
+                                  the CPU frequency correctly causing the light to blink slightly faster. This has been fixed as of this writeup.</p>
+
+                                  <p><a href="https://github.com/bglebrun/CENG447Lab0" class="nav-link border border-light rounded waves-effect"
+                                      target="_blank">
+                                      <i class="fab fa-github mr-2"></i>Lab 0 Github repo
+                                  </a></p>
+
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/tXCF0wEfz2A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
                             </div>
 
                         </div>
                         <!--/.Card-->
 
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-lg-4 col-md-6 mb-4">
-                    </div>
-                    <!--Grid column-->
-
-                </div>
-                <!--Grid row-->
-
-                <!--Grid row-->
-                <div class="row mb-4 wow fadeIn">
-
-                    <!--Grid column-->
-                    <div class="col-lg-4 col-md-12 mb-4">
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-lg-4 col-md-6 mb-4">
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-lg-4 col-md-6 mb-4">
-                    </div>
-                    <!--Grid column-->
-
                 </div>
                 <!--Grid row-->
 
             </section>
-            <!--Section: Cards-->
+            <!--Section: Post-->
 
         </div>
     </main>
@@ -171,7 +130,6 @@
 
     <!--Footer-->
     <footer class="page-footer text-center font-small mdb-color darken-2 mt-4 wow fadeIn">
-
         <hr class="my-4">
 
         <!-- Social icons -->
